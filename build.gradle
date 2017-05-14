@@ -32,6 +32,7 @@ kotlin {
 jar {
     manifest {
         attributes "Premain-Class": "agent.Agent"
+        attributes "Can-Retransform-Classes": "true"
     }
 }
 
